@@ -1,0 +1,103 @@
+body {
+    background-color: lightblue;
+    background-image: url(yaya3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+h1.Center {
+    text-align: center;
+    text-decoration: underline overline red;
+    line-height: 40px;
+    font-size: 42px;
+    font-weight: lighter;
+    font-style: verdana;
+    color:red;
+    position: relative ;
+    }
+
+.Perkenalan {
+    margin: 40px;
+    border: 2px solid black;
+    padding: 25px;
+    width: 780px;
+    background-color: chocolate;
+    display: inline-block;
+    float: none;
+}
+
+.Tabel {
+    margin: 40px;
+    border: 2px solid black;
+    padding: 25px;
+    width: 780px;
+    background-color: chocolate;
+    display: inline-block;
+    float: none;
+}
+
+.Model {
+
+    margin: 40px;
+    border: 2px solid black;
+    padding: 25px;
+    width: 500px;
+    background-color: chocolate;
+    display: inline-block;
+    float: right;
+
+}
+
+.Tema {
+
+    position: relative;
+    top: -100px;
+    margin-right:40px;
+    border: 2px solid black;
+    padding: 25px;
+    width: 600px;
+    background-color: chocolate;
+    display: grid;
+    float: right;
+}
+
+.list {
+    list-style: circle;
+    position: relative;
+    top: -200px;
+    float: right ;
+    margin: 50px;
+    border: 2px solid black;
+    padding: 20px;
+    width: 400px;
+    background-color:chocolate;
+    display: inline-block
+    
+
+
+#Kuntak {
+    position: relative; 
+    left : 350px;
+    
+}
+
+
+#Kuntak{
+    color: white;
+    padding: 20px;
+    width:auto;
+    background: red;
+    transition: all 0.7s ease 0s;
+    }
+    
+ #Kuntak{
+    width: 100px;
+    background:transparent;
+    }
+
+
+
+
+
+
+
