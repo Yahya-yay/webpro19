@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <style>
+        select, img {
+            width: 250px;
+            height: auto;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Picker</title>
+</head>
+
+<body>
+<h2>Pilihlah Hewan Sesuai Kelakuan Anda</h2>
+    <select id="changeImage" onchange="change_image()">
+        <option disabled selected>Pilihlah Hewan Jagoan Anda</option>
+        <option value="Cheetah" >Cheetah</option>
+        <option value="Tiger">Tiger</option>
+        <option value="Eagle">Eagle</option>
+        <option value="Crocodile">Crocodile</option>
+        <option value="Baboon">Baboon</option>
+        <option value="Fox">Fox</option>
+    </select>
+    <br/>
+    <br/>
+    <img id="gambar" src="" alt="Pilih Hewan diatas untuk menampilkan gambar!" width="100px" height="auto">
+    <script>
+        function change_image() {
+            let images = document.getElementById("changeImage").value;
+            let gambar = document.getElementById("gambar");
+            if (images == "Cheetah"){
+                gambar.src="./image/Cheetah.jpg";
+                alert(`Cheetah.jpg ${images}`);
+            }else if (images == "Tiger"){
+                gambar.src="./image/Tiger.jpg";
+                alert(`Tiger.jpg ${images}`);
+            }else if (images == "Eagle"){
+                gambar.src="./image/Eagle.jpg";
+                alert(`Eagle.jpg ${images}`);
+            }else if (images == "Crocodile"){
+                gambar.src="./image/Crocodile.jpg";
+                alert(`Crocodile.jpg ${images}`);
+            }else if (images == "Baboon"){
+                gambar.src="./image/Baboon.jpg";
+                alert(`Baboon.jpg ${images}`);
+            }else if (images == "Fox"){
+                gambar.src="./image/Fox.jpg";
+                alert(`Fox.jpg ${images}`);
+            }
+        }
+    </script>
+</body>
+
+</html>
